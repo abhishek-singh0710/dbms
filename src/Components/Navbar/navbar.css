@@ -1,0 +1,54 @@
+.nav{
+    width: 100vw;
+    height: 16vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pname{
+    font-size: 2rem;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.rightside{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonsnav{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    border: 2px solid teal;
+    color: white;
+    border-radius: 10%;
+}
+
+.buttonsnav:hover{
+    background-color: rgb(84, 212, 148);
+}
+
+
+
+
